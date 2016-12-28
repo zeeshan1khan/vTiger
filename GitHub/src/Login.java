@@ -17,6 +17,7 @@ WebDriver drv = new FirefoxDriver();
 		drv.findElement(By.name("user_password")).sendKeys("admin");
 		Thread.sleep(10000);
 		drv.findElement(By.name("Login")).click();
+		System.out.println("Hello");
 	}
 
 }
